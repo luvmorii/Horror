@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+<!--Create a label and input for Age similar to the previous examples -->
+        <div class="form-control">
+            
+        </div>
+
+      <!--Create a label for role where 
+-id says label-role
+-the displayed text says, "Which option best describes you?" -->
+        <div class="form-control">
+            <label for="role" id="label-role">Which option best describes you?</label>
+          
+<!--Create a select tag with a "name" attribute that equals role and an "id" attribute that equals role
+ -nested inside should be 4 option tags, with the respective value attributes that equals "student" "intern" "professional" or "other" 
+-text display in the option tags should also be "student" "intern" "professional" or "other"-->          
+            
+                
+        </div>
+
+<!-- -->      
+        <div class="form-control">
+            <label>Would you recommend GeeksforGeeks to a friend?</label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+   <!-- Add a no or maybe option below:-->       
+            
+        </div>
+
+        <div class="form-control">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">HTML
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">CSS
+            </label>
+            <label for="inp-3">
+    <!-- Add React JavaScript python, C# and other -->          
+                
+        </div>
+
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+   <!--Creat a "textarea" tag with id attribute syaing comment and a placeholder text that reads "Enter your comment here" -->         
+
+        </div>
+        <!-- Submit Button with a type attribute called submit and  value attribute labeled Submit-->
+   
+    </form>
+</body>
+
+</html>
